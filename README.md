@@ -1,6 +1,11 @@
-# CLI Node Gluegun
+# CLI Node Gluegun - ReactJS development
 
-A CLI developed using NodeJS and Gluegun.
+CLI for ReactJS shortcuts as an alternative to VSCode shortcuts, such as:
+
+- Stateless/Stateful components.
+- Styled Components files.
+- Store structure (ducks and sagas).
+- Unit testing file (shallow/mount and with Redux provider if needed).
 
 ## Commands
 
