@@ -1,15 +1,14 @@
-# CLI Node Gluegun - ReactJS development
+# CLI Node Gluegun Personal Packages
 
-CLI for ReactJS shortcuts as an alternative to VSCode shortcuts, such as:
+Repository to list my personal CLI's, created for fun or optimize some task.
 
-- Stateless/Stateful components.
-- Styled Components files.
-- Store structure (ducks and sagas).
-- Unit testing file (shallow/mount and with Redux provider if needed).
+## rmcra-files
+
+This CLI was created to clean the initial create-react-app useless files (and for fun, or course!). It removes the following files:
 
 ## Commands
 
-(list of cli commands)
+To see the commands available for each CLI, please run the CLI's name (e.g rmcra-files) and -h or --help (e.g ```rmcra-files -h``` or ```rmcra-files --help```);
 
 ## Versioning
 
