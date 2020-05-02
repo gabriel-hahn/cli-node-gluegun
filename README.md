@@ -4,7 +4,9 @@ Repository to list my personal CLI's, created for fun or optimize some task :hou
 
 ## rmcra-files
 
-This CLI was created to clean the initial create-react-app useless files (and for fun, or course!). It removes the following files:
+> npm i -g rmcra-files
+
+This simple CLI was created to clean the initial create-react-app useless files (and for fun, or course!). It removes the following files:
 
 <strong>public/favicon.ico</strong><br />
 <strong>public/logo192.png</strong><br />
@@ -14,13 +16,13 @@ This CLI was created to clean the initial create-react-app useless files (and fo
 <strong>src/logo.svg</strong><br />
 <strong>src/App.test.js or tsx</strong><br />
 
-And update the following files (imports and comments):
+And updates the following files (imports and comments):
 
 <strong>public/index.html</strong><br />
 <strong>src/App.js or tsx</strong><br />
 <strong>src/index.js or tsx</strong><br />
 
-### Parameters
+### Command & Parameters
 
 To use this CLI on CRA projects, you can just run the following command:
 
