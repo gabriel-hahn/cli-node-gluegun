@@ -2,18 +2,19 @@
 import { GluegunToolbox, GluegunFilesystem } from 'gluegun';
 
 const removeUselessFiles = (filesystem: GluegunFilesystem) => {
-  const currentPath = filesystem.path();
+  const { path, separator, remove } = filesystem;
+  const currentPath = path();
 
-  filesystem.remove(`${currentPath}/public/favicon.png`);
-  filesystem.remove(`${currentPath}/public/logo192.png`);
-  filesystem.remove(`${currentPath}/public/logo512.png`);
-  filesystem.remove(`${currentPath}/public/robots.txt`);
+  remove(`${currentPath}${separator}public${separator}favicon.png`);
+  remove(`${currentPath}${separator}public${separator}logo192.png`);
+  remove(`${currentPath}${separator}public${separator}logo512.png`);
+  remove(`${currentPath}${separator}public${separator}robots.txt`);
 
-  filesystem.remove(`${currentPath}/src/App.css`);
-  filesystem.remove(`${currentPath}/src/App.test.js`);
-  filesystem.remove(`${currentPath}/src/App.test.tsx`);
-  filesystem.remove(`${currentPath}/src/index.css`);
-  filesystem.remove(`${currentPath}/src/logo.svg`);
+  remove(`${currentPath}${separator}src${separator}App.css`);
+  remove(`${currentPath}${separator}src${separator}App.test.js`);
+  remove(`${currentPath}${separator}src${separator}App.test.tsx`);
+  remove(`${currentPath}${separator}src${separator}index.css`);
+  remove(`${currentPath}${separator}src${separator}logo.svg`);
 };
 
 const updateRemainFiles = (filesystem: GluegunFilesystem) => {
