@@ -1,6 +1,6 @@
 # CLI Node Gluegun Personal Packages
 
-Repository to list my personal CLI's, created for fun or optimize some task.
+Repository to list my personal CLI's, created for fun or optimize some task :hourglass_flowing_sand:
 
 ## rmcra-files
 
