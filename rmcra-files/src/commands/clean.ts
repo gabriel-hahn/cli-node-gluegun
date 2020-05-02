@@ -8,7 +8,6 @@ const removeUselessFiles = async (filesystem: GluegunFilesystem, extension: stri
   remove(`${currentPath}${separator}public${separator}favicon.ico`);
   remove(`${currentPath}${separator}public${separator}logo192.png`);
   remove(`${currentPath}${separator}public${separator}logo512.png`);
-  remove(`${currentPath}${separator}public${separator}robots.txt`);
 
   remove(`${currentPath}${separator}src${separator}App.css`);
   remove(`${currentPath}${separator}src${separator}App.test.${extension}`);
@@ -42,7 +41,6 @@ const filesChangesLog = (print: GluegunPrint, extension: string) => {
   print.info('public/favicon.ico');
   print.info('public/logo192.png');
   print.info('public/logo512.png');
-  print.info('public/robots.txt');
   print.info('public/index.html');
   print.info('src/App.css');
   print.info('src/index.css');
