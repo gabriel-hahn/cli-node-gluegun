@@ -1,3 +1,9 @@
 # Command Reference for rmcra-files
 
-TODO: Add your command reference here
+# Commands
+
+clean: Remove the useless files and update the imports.
+
+# Parameters
+
+--typescript: When you are using a CRP Typescript project.
