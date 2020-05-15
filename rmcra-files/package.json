@@ -1,6 +1,6 @@
 {
   "name": "rmcra-files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rmcra-files CLI. Use it to remove the initial useless files which create-react-app creates for you :)",
   "types": "build/types/types.d.ts",
   "bin": {
