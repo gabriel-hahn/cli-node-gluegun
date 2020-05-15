@@ -1,11 +1,18 @@
 {
   "name": "rmcra-files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rmcra-files CLI. Use it to remove the initial useless files which create-react-app creates for you :)",
   "types": "build/types/types.d.ts",
   "bin": {
     "rmcra-files": "bin/rmcra-files"
   },
+  "keywords": [
+    "create-react-app",
+    "cli",
+    "react",
+    "react-native",
+    "typescript"
+  ],
   "scripts": {
     "format": "prettier --write **/*.{js,ts,tsx,json}",
     "lint": "tslint -p .",
